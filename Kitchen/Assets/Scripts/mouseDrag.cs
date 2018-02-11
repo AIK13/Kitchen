@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class mouseDrag : MonoBehaviour 
 {
+	// using code from here https://www.youtube.com/watch?v=pK1CbnE2VsI
 	float distance = 0.5f;
 	
 	void OnMouseDrag()
@@ -13,4 +14,6 @@ public class mouseDrag : MonoBehaviour
 		
 		transform.position = objPosition;
 	}
+	
+	// will add nicer falling mechanics later, with OnMouseUp or something
 }
