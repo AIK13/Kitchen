@@ -765,11 +765,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400342, guid: ba28b97322ec8e541b91ff8ca58c2711, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.284
+      value: 2.075
       objectReference: {fileID: 0}
     - target: {fileID: 400342, guid: ba28b97322ec8e541b91ff8ca58c2711, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 1.207
+      value: 1.333
       objectReference: {fileID: 0}
     - target: {fileID: 100344, guid: ba28b97322ec8e541b91ff8ca58c2711, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -792,6 +792,18 @@ Prefab:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2300060, guid: ba28b97322ec8e541b91ff8ca58c2711, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300138, guid: ba28b97322ec8e541b91ff8ca58c2711, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 68c9fd420a830b541850cc306b8b62f6, type: 2}
+    - target: {fileID: 2300138, guid: ba28b97322ec8e541b91ff8ca58c2711, type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: 68c9fd420a830b541850cc306b8b62f6, type: 2}
+    - target: {fileID: 2300138, guid: ba28b97322ec8e541b91ff8ca58c2711, type: 3}
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
@@ -836,6 +848,35 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!1 &1136076494 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 100150, guid: ba28b97322ec8e541b91ff8ca58c2711, type: 3}
+  m_PrefabInternal: {fileID: 839017646}
+--- !u!114 &1136076498
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1136076494}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 077026508a05fe241a8232ef01c5ae11, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  heatOn: 0
+  rend: {fileID: 0}
+--- !u!65 &1136076499
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1136076494}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: -0.04, y: 0.003, z: 0.02}
+  m_Center: {x: 0.15, y: 2.842171e-16, z: 0.36}
 --- !u!1001 &1177588240
 Prefab:
   m_ObjectHideFlags: 0
